@@ -1,0 +1,60 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.content {
+    padding: 25px;
+}
+
+._align-left {
+    text-align: left;
+}
+
+._align-center {
+    text-align: center;
+}
+
+._align-right {
+    text-align: right;
+}
+
+.btn-group, .btn-group .btn {
+    width: 100%;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.btn-group-vertical > .btn,
+.btn-group > .btn {
+    text-align: left;
+}
+
+.btn-group .caret {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+
+table {
+    table-layout: fixed;
+    width: 200px;
+}
+
+th {
+    width: 1px;
+    white-space: nowrap;
+}
+
+.top-widget {
+    height: 220px;
+    margin-bottom: 25px;
+}
+
+    .top-widget > [class*="col-"],
+    .top-widget > [class*="col-"] .panel {
+        height: 100%;
+    }
